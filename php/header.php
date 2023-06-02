@@ -1,4 +1,4 @@
-<img src="assets/img/pwr-logo.png" style="height:80px; width: 100px; margin-left: 20px; margin-top: 15px" />
+<img src="assets/img/PWr-logo.png" style="width: 300px; height: 50px; margin-left: 20px; margin-top: 15px" />
 <header id=" header" class="header fixed-top" data-scrollto-offset="0">
      <div class="container-fluid d-flex align-items-center justify-content-between">
 
