@@ -33,7 +33,7 @@ require_once("db.php");
 
     <section id="hero-animated" class="hero-animated d-flex align-items-center">
         <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-            <img src="assets/img/hero-carousel/hero-carousel-1.svg" class="img-fluid animated">
+            <img src="assets/img/main-page.png" class="img-fluid animated">
             <h2>Welcome to <span>Placement System of PWR</span></h2>
             <p>We Will Support You In Your Entire Placement Journey.</p>
             <div class="d-flex">
@@ -111,35 +111,14 @@ require_once("db.php");
 
                     <div class="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
                         <div class="img">
-                            <img src="assets/img/feature-7.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/features-7.png" alt="" class="img-fluid">
                         </div>
                     </div>
 
                 </div>
 
             </div>
-        </section><!-- End Call To Action Section -->
-
-
-        <!-- ======= Clients Section ======= -->
-        <!--<section id="clients" class="clients">
-            <div class="container" data-aos="zoom-out">
-
-                <div class="clients-slider swiper">
-                    <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide"><img src="assets/img/clients/client-1.svg" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-                        <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-                    </div>
-                </div>
-
-            </div>-->
-        </section><!-- End Clients Section -->
+        </section>
 
 
 
@@ -171,7 +150,7 @@ require_once("db.php");
                                 </ul>
                             </div>
                             <div class="col-lg-4 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                                <img src="assets/img/features-1.svg" alt="" class="img-fluid">
+                                <img src="assets/img/features-1.png" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>

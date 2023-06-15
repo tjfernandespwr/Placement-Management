@@ -50,10 +50,10 @@
     ?>
     <section class="text-gray-600 body-font">
         <div class="container px-5 py-24">
-            <div class="flex flex-wrap -m-4">
+            <div class="flex flex-wrap -m-4" style="align-items: center; align-content: center; justify-content: center">
                 <div class="p-4 md:w-1/3">
                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/img/login/login-2.jpg" alt="blog">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/img/login/login-1.png" alt="blog">
                         <div class="p-6">
                             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Are you a </h2>
                             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Student?</h1>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="p-4 md:w-1/3 ">
                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/img/login/login-1.jpg" alt="blog">
+                        <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="assets/img/login/login-2.png" alt="blog">
                         <div class="p-6">
                             <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Are you from the</h2>
                             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Placement Cell ?</h1>
@@ -89,22 +89,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="p-4 md:w-1/3 bg-gray-700" style="font-family: 'Andada Pro', serif; color:#d1b8c6">
-                    <ol list-style:upper-roman>
-                        <li>Placement is a decisive factor of successful completion of any coursework at the graduate or postgraduate level.</li>
-                        <br>
-                        <li>It is a dream of every student to get placed in top MNCs to achieve their set goals and objectives.</li>
-                        <br>
-                        <li> The private universities are also levelling up their game by equipping and upgrading their training and placement cells.</li>
-                        <br>
-                        <li> Contrary to popular belief, the role of the placement cell is not limited to organisingrecruitment drive at the campus.</li>
-                        <br>
-                        <li> They play a much broader role in placing a student in a reputed organisation. Let’s find out how!</li>
-                        <br>
-                        <li style="text-align:right">- Training and Placement Officer</li>
-
-                    </ol>
                 </div>
             </div>
 

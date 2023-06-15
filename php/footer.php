@@ -6,12 +6,9 @@
         <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
 
             <div class="d-flex flex-column align-items-center align-items-lg-start">
-                <div class="copyright">
-                    &copy; Copyright <strong><span>Davv</span></strong>. All Rights Reserved
-                </div>
                 <div class="credits">
 
-                    <a href="https://bootstrapmade.com/">PWR-PlacementCell</a>
+                    <a>PWR-PlacementCell</a>
                 </div>
             </div>
 
