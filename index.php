@@ -34,8 +34,8 @@ require_once("db.php");
     <section id="hero-animated" class="hero-animated d-flex align-items-center">
         <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
             <img src="assets/img/main-page.png" class="img-fluid animated">
-            <h2>Welcome to <span>Placement System of PWR</span></h2>
-            <p>We Will Support You In Your Entire Placement Journey.</p>
+            <h2>Welcome to <span>Placement Management System of PWR</span></h2>
+            <p>"Connecting talent with opportunity"</p>
             <div class="d-flex">
                 <a href="login.php" class="btn-get-started scrollto">Get Started</a>
 
@@ -98,13 +98,9 @@ require_once("db.php");
                 <div class="row g-5">
 
                     <div class="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-                        <h3>Placement <em>Portal</em> </h3>
-                        <p>The Placement Cell plays a crucial role in locating job
-                            opportunities for under graduates and post graduates passing out from the college by
-                            keeping in touch with reputed firms and industrial establishments.
-                            <br>The placement cell operates round the year to facilitate contacts between companies
-                            and graduates. The number of students placed through the campus interviews is
-                            continuously rising.
+                        <h3>Placement Management System </h3>
+                        <p>
+                            Placement management system automates and streamlines the process of managing job placements and recruiting candidates for job openings. It includes modules for job posting, candidate tracking and assessment, and communication tools for recruiters and hiring managers. It can save time and reduce costs associated with recruiting and hiring, while also improving the quality and efficiency of the hiring process.
                         </p>
                         <a class="cta-btn align-self-start" href="#">Get Started</a>
                     </div>
@@ -135,7 +131,7 @@ require_once("db.php");
                             <div class="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
                                 <h3>Objectives</h3>
                                 <p class="fst-itali">
-                                    Our Placement Portal serves various objectives:
+                                    Our Placement Management System serves various objectives:
                                 </p>
                                 <ul>
                                     <li><i class="bi bi-check-circle-fill"></i> Developing the students to meet the Industries recruitment process.

@@ -61,13 +61,13 @@ require_once("db.php");
                   <input class="form-control input-lg" type="text" name="name" placeholder="Full Name" required>
                 </div>
                 <div class="form-group">
-                  <input class="form-control input-lg" type="text" name="companyname" placeholder="Designation">
+                  <input class="form-control input-lg" type="text" name="companyname" placeholder="Company">
                 </div>
                 <div class="form-group">
-                  <input class="form-control input-lg" type="text" name="website" placeholder="Website">
+                  <input class="form-control input-lg" type="text" name="website" placeholder="Company Website">
                 </div>
                 <div class="form-group">
-                  <input class="form-control input-lg" type="text" name="email" placeholder="Email" required>
+                  <input class="form-control input-lg" type="text" name="email" placeholder="Company Email" required>
                 </div>
                 <div class="form-group">
                   <textarea class="form-control input-lg" rows="4" name="aboutme" placeholder="Roles & Responsibility"></textarea>
@@ -184,7 +184,7 @@ require_once("db.php");
       //event.which will return key for mouse events and other events like ctrl alt etc. 
       var key = window.event ? event.keyCode : event.which;
 
-      if (event.keyCode == 8 || event.keyCode == 46 || event.keyCode == 37 || event.keyCode == 39) {
+      if (event.keyCode === 8 || event.keyCode === 46 || event.keyCode === 37 || event.keyCode === 39) {
         // 8 means Backspace
         //46 means Delete
         // 37 means left arrow
