@@ -42,7 +42,7 @@ if (isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
   ?>
 </head>
 
-<body class="hold-transition login-page bg-blue-100 text-white">
+<body class="hold-transition login-page text-white" style="background-color: #fce5e5">
 
 
   <?php
@@ -53,10 +53,10 @@ if (isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
 
   <div class="login-box content:centre">
     <div class="login-logo">
-      <a href="index.php" style="color:black"><b>Placement Portal</b></a>
+      <a href="index.php" style="color:black"><b>Placement Management System</b></a>
     </div>
     <!-- /.login-logo -->
-    <div class=" login-box-body bg-blue-200 text-black text-xl">
+    <div class=" login-box-body text-black text-xl" style="background-color: #f0c7c7">
       <p class="text-white text-2xl login-box-msg text-black">Placement Cell</p>
 
       <form method="post" action="checkcompanylogin.php">
@@ -80,7 +80,7 @@ if (isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
           </div>
           <!-- /.col -->
           <div class="col-xs-4">
-            <button type="submit" name="submit" class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"">Sign In</button>
+            <button type="submit" name="submit" class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded" style="background-color: #de9090">Sign In</button>
           </div>
 
           <!-- /.col -->

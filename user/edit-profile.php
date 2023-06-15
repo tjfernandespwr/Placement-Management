@@ -116,12 +116,8 @@ require_once("../db.php");
                           <input type="text" class="form-control input-lg" id="state" name="state" placeholder="state" value="<?php echo $row['state']; ?>">
                         </div>
                         <div class="form-group">
-                          <label for="Marks">HSC Marks</label>
-                          <input type="text" class="form-control input-lg" id="Marks" name="hsc" placeholder="Percentage/CGPA" value="<?php echo $row['hsc']; ?>">
-                        </div>
-                        <div class="form-group">
-                          <label for="Marks">SSC Marks</label>
-                          <input type="text" class="form-control input-lg" id="Marks" name="ssc" placeholder="Percentage/CGPA" value="<?php echo $row['ssc']; ?>">
+                          <label for="Marks">Average Marks</label>
+                          <input type="text" class="form-control input-lg" id="Marks" name="average" placeholder="Percentage" value="<?php echo $row['average']; ?>">
                         </div>
 
                         <div class="form-group">
@@ -148,14 +144,6 @@ require_once("../db.php");
                         <div class="form-group">
                           <label>About Me</label>
                           <textarea class="form-control input-lg" rows="4" name="aboutme"><?php echo $row['aboutme']; ?></textarea>
-                        </div>
-                        <div class="form-group">
-                          <label for="Marks">UG Marks</label>
-                          <input type="text" class="form-control input-lg" id="Marks" name="ug" placeholder="Percentage/CGPA" value="<?php echo $row['ug']; ?>">
-                        </div>
-                        <div class="form-group">
-                          <label for="Marks">PG Marks</label>
-                          <input type="text" class="form-control input-lg" id="Marks" name="pg" placeholder="Percentage/CGPA" value="<?php echo $row['pg']; ?>">
                         </div>
                         <div class="form-group">
                           <label>Upload/Change Resume</label>

@@ -140,7 +140,7 @@ require_once("db.php");
                   </select>
                 </div>
                 <div class="form-group">
-                  <label>Upload your profile picture</label>
+                  <label>Upload company picture</label>
                   <input type="file" name="image" class="form-control input-lg">
                 </div>
               </div>

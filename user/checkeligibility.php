@@ -21,8 +21,7 @@ if (isset($_GET)) {
 
     if ($result1->num_rows > 0) {
         $row1 = $result1->fetch_assoc();
-        $sum = $row1['hsc'] + $row1['ssc'] + $row1['ug'] + $row1['pg'];
-        $total = ($sum / 4);
+        $average = $row1['average'];
         $course1 = $row1['qualification'];
     }
 
@@ -34,7 +33,7 @@ if (isset($_GET)) {
         $row = $result->fetch_assoc();
         $eligibility = $row['maximumsalary'];
         $course2 = $row['qualification'];
-        if ($total >= $eligibility) {
+        if ($average >= $eligibility) {
             if ($course1 == $course2) {
                 header("Location: ../view-job-post.php?id=$_GET[id]");
                 $_SESSION['status'] = "You are eligible for this drive, apply if you are interested.";

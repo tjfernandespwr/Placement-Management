@@ -58,10 +58,6 @@ require_once("../db.php");
                     <div class="row">
 
                         <div class="col md-13">
-                            <a href="export.php"><button type="submit1" name='export_excel_btn' class="btn btn-primary">Export to Excel</button></a>
-
-                            <button type="submit1" onclick="sortTable()" name='export_excel_btn' style="margin-left: 8px;" class="btn btn-success">Sort Data</button>
-                            <h3 style="text-align: center;"> Student applications for various companies</h3>
                             <?php
 
                             $sql1 = "SELECT distinct jobtitle FROM job_post INNER JOIN apply_job_post ON job_post.id_jobpost=apply_job_post.id_jobpost  INNER JOIN users ON users.id_user=apply_job_post.id_user WHERE apply_job_post.id_company=2";

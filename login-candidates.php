@@ -13,7 +13,7 @@ if (isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Placement Portal</title>
-  <link href="img/logo.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="icon">
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -39,7 +39,7 @@ if (isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
 
-<body class="hold-transition login-page bg-blue-100 text-white">
+<body class="hold-transition login-page text-white" style="background-color: #a3ced3">
 
 
   <!-- <header> -->
@@ -58,10 +58,10 @@ if (isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
   <div class="login-box hello">
     <div class="login-logo ">
 
-      <a href="index.php" style="color:black"><b>Placement Portal</b></a>
+      <a href="index.php" style="color:black"><b>Placement Management System</b></a>
     </div>
     <!-- /.login-logo -->
-    <div class="login-box-body bg-blue-200 text-black ">
+    <div class="login-box-body text-black " style="background-color: #8fbbbe">
       <p class="login-box-msg text-2xl text-black">Student Login</p>
 
       <form method="post" action="checklogin.php " class="text-xl">
@@ -86,7 +86,7 @@ if (isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
           </div>
           <!-- /.col -->
           <div class="col-xs-4">
-            <button type="submit" class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Sign In</button>
+            <button type="submit" class="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded" style="background-color: #548f76">Sign In</button>
           </div>
           <!-- /.col -->
         </div>

@@ -16,7 +16,7 @@ if (isset($_SESSION['id_admin'])) {
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Placement Portal</title>
-  <link href="../img/logo.png" rel="icon">
+  <link href="../assets/img/favicon.png" rel="icon">
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -53,7 +53,7 @@ if (isset($_SESSION['id_admin'])) {
   <div class="login-box " id="sms">
 
     <div class="login-logo text-white">
-      <a style="color:white" href="../index.php">Placement Portal</a>
+      <a style="color:white" href="../index.php">Placement Management System</a>
     </div>
     <!-- /.login-logo -->
     <div class="bg-gray-900 text-white login-box-body large">

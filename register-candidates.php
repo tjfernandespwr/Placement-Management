@@ -114,7 +114,7 @@ if (isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
                   Password Mismatch!!
                 </div>
                 <div class="form-group">
-                  <input class="form-control input-lg" type="text" id="contactno" name="contactno" minlength="10" maxlength="10" onkeypress="return validatePhone(event);" placeholder="Phone Number">
+                  <input class="form-control input-lg" type="text" id="contactno" name="contactno" minlength="9" maxlength="9" onkeypress="return validatePhone(event);" placeholder="Phone Number">
                 </div>
                 <div class="form-group">
                   <textarea class="form-control input-lg" rows="4" id="address" name="address" placeholder="Address"></textarea>
@@ -177,7 +177,7 @@ if (isset($_SESSION['id_user']) || isset($_SESSION['id_company'])) {
       //event.which will return key for mouse events and other events like ctrl alt etc. 
       var key = window.event ? event.keyCode : event.which;
 
-      if (event.keyCode == 8 || event.keyCode == 46 || event.keyCode == 37 || event.keyCode == 39) {
+      if (event.keyCode === 8 || event.keyCode === 46 || event.keyCode === 37 || event.keyCode === 39) {
         // 8 means Backspace
         //46 means Delete
         // 37 means left arrow

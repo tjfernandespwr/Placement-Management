@@ -25,10 +25,7 @@ if (isset($_POST)) {
 	$stream = mysqli_real_escape_string($conn, $_POST['stream']);
 	$skills = mysqli_real_escape_string($conn, $_POST['skills']);
 	$aboutme = mysqli_real_escape_string($conn, $_POST['aboutme']);
-	$Hsc = mysqli_real_escape_string($conn, $_POST['hsc']);
-	$Ssc = mysqli_real_escape_string($conn, $_POST['ssc']);
-	$UG = mysqli_real_escape_string($conn, $_POST['ug']);
-	$PG = mysqli_real_escape_string($conn, $_POST['pg']);
+	$average = mysqli_real_escape_string($conn, $_POST['average']);
 
 	$uploadOk = true;
 
@@ -69,7 +66,7 @@ if (isset($_POST)) {
 
 
 	//Update User Details Query
-	$sql = "UPDATE users SET firstname='$firstname', lastname='$lastname', address='$address', city='$city', state='$state', contactno='$contactno', qualification='$qualification', stream='$stream', skills='$skills', aboutme='$aboutme', Hsc='$Hsc', Ssc='$Ssc', UG='$UG', PG='$PG'";
+	$sql = "UPDATE users SET firstname='$firstname', lastname='$lastname', address='$address', city='$city', state='$state', contactno='$contactno', qualification='$qualification', stream='$stream', skills='$skills', aboutme='$aboutme', average='$average'";
 
 	if ($uploadOk == true) {
 		$sql .= ", resume='$file'";
